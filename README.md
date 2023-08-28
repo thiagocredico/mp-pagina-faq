@@ -21,7 +21,11 @@ Crie uma página contendo as respostas para as perguntas mais frequentes do seu 
 
 Temos uma sugestão de design no Figma, mas sinta-se livre para utilizar a criatividade e implementar uma página com o seu estilo próprio.
 
-🔗 [Acesse o link do Figma]()
+### Figma
+
+🔗 [Acesse o link do Figma](https://www.figma.com/community/file/1278004378073537594)
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FAbn9zJUHYRC7zh2oUsgYiX%2F%255BMini-Projeto%255D-P%25C3%25A1gina-FAQ%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3D2gwih5VDnGvPd649-1" allowfullscreen></iframe>
 
 ## 👉🏽 Sobre esse mini-projeto
 
