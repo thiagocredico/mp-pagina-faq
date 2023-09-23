@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background: #EDF6FE;
+    overflow: scroll
+}
+
+.wrapper {
+    margin: auto;
+    margin-top: 5%;
+    max-width: 75%;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    width: 1060px;
+    height: auto;
+    padding: 40px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+.wrapper>p,
+.wrapper>h1 {
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.wrapper>h1 {
+    letter-spacing: 3px;
+}
+
+.elements {
+    display: flex;
+    /* align-items: center; */
+}
+
+.faq-image {
+    margin-top: 36px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 3.48px;
+    padding: 20.711px 18.899px;
+}
+
+.accordion i {
+    font-size: 1.6rem;
+}
+
+.active,
+.accordion:hover {
+    background-color: #f1f7f5;
+
+}
+
+.pannel {
+    padding: 20.711px 18.899px;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+    display: none;
+
+}
+
+.pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.faq {
+    margin: 10px 0;
+    width: 690px;
+    border-radius: 2.805px;
+    background: #FFF;
+    box-shadow: 2.83px 0px 0px 0px #A9D4FF inset, 0px 0.30467px 0px 0px #A9D4FF;
+    flex-shrink: 0;
+    border-left: 3px solid #A9D4FF;
+}
+
+@media only screen and (max-width: 600px) {
+    .elements {
+        display: block;
+        /* align-items: center; */
+    }
+
+    .faq {
+        width: 312px;
+    }
+
+    .accordion {
+        font-size: 0.8rem;
+        width: 100%;
+        padding: 0.8rem;
+        transition: 0.4s;
+        align-items: left;
+        text-align: left;
+    }
+
+    .accordion i {
+        font-size: 0.8rem;
+    }
+
+    .pannel {
+        padding: 10.711px 10.899px;
+    }
+
+    .pannel p {
+        font-size: 0.8rem;
+    }
+
+    .faq-image {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
